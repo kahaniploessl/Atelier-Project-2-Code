@@ -12,7 +12,8 @@ function setup() {
 
   createCanvas(windowWidth, windowHeight).parent('canvasContainer');
 
-  video = createVideo('Archive/GOPR0985.MP4');
+  
+  video = createVideo('Archive/GOPR0976.MP4');
   video.hide();
   resultImg = createImg('');
   resultImg.hide();
